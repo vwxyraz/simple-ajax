@@ -49,7 +49,7 @@
         const xhttp = new XMLHttpRequest();
         xhttp.onload = function () {
             const myObj = JSON.parse(this.responseText);
-            let html = "<option>Choose the genre...</option>";
+            let html = "<option>Choose the type of book...</option>";
             let idx = 0;
             for (let x of Object.keys(myObj)) {
                 html += "<option";
