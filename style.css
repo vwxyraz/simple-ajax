@@ -25,7 +25,10 @@
   }
    
   .glass-button:hover {
-    background-color:  rgb(0, 102, 255); }
+    color: black;
+    background-color:  rgb(255, 208, 0)
+    /* rgb(0, 102, 255) */
+    ; }
    
   body {
     background: url(https://w.wallha.com/ws/12/2L6MPTIa.png)
